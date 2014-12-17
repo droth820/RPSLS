@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Rock, Paper, Scissors, Lizzard, Spock
+    </title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/rps.css" />
+
+</head>
+
+<body>
+
+<div id="content">
+
+    <header><center><h1>Rock, Paper, Scissors, Lizard, Spock</h1></center></header>
+    
+    <p class="message" id="statusMessage" />
+
+    <div id="columns">
+        <div class="rps" id="rps1"><img draggable="true" src="images/Rock.png"  /><footer>Rock</Footer></div>
+        <div class="rps" id="rps2"><img draggable="true" src="images/Paper.png" /><footer>Paper</Footer></div>
+        <div class="rps" id="rps3"><img draggable="true" src="images/Scissors.png" /><footer>Scissors</Footer></div>
+        <div class="rps" id="rps4"><img draggable="true" src="images/lizzard.jpg" /><footer>Lizard</Footer></div>
+        <div class="rps" id="rps5"><img draggable="true" src="images/spock.jpg" /><footer>Spock</Footer></div>
+    </div>
+
+    <p id="clear" /> <!-- provide some space at the bottom --> 
+</div>
+<br>
+<div id="intro">
+    <header><h2>Welocme to Rock, Paper, Scissors, Lizard, Spock</h2></header>
+    <section><p>This version of Rock, Paper, Scissors, Lizard, Spock is a single player game. To play, simply drag and drop one image on top of another. A message will display at the top of the page indicating if an object does or does not beat another. Thank you for playing and have fun!</p></section>
+    <section><h3>Rules:</h3><p>The rules are simple:</p>
+        <ul><li>Scissors cuts Paper</li>
+            <li>Paper covers Rock</li>
+            <li>Rock crushes Lizard</li>
+            <li>Lizard poisons Spock</li>
+            <li>Spock smashes Scissors</li>
+            <li>Scissors decapitates Lizard</li>
+            <li>Paper disproves Spock</li>
+            <li>Spock vaporizes Rock</li>
+            AND
+            <li>Rock crushes Scissors</li>
+        </ul>
+
+    </section>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

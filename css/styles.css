@@ -1,0 +1,45 @@
+body {
+	background-color: #002F5F;
+	border: 0;
+	color: #000000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+	margin: 0;
+    padding: 0;   
+}
+
+#content {
+	background-color: #FFCE00;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 350px;
+	padding: 5px;
+	width: 85%;
+}
+
+#content h1{
+	color: #3727B2;
+    font-size: 2em;
+}
+
+h2 {
+	color: #3727B2;
+	font-size: 1.5em;
+}
+h3 {
+	color: #3727B2;
+	font-size: 1.3em;
+}
+
+#intro {
+	background-color: #CCDBEB;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+	padding: 10px;
+	width: 85%;
+}
+.message {
+    border: 1px solid #e3e3e3;
+    background-color: #CCDBEB;
+}
